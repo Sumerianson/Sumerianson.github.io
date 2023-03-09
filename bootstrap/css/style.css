@@ -1,0 +1,63 @@
+* {
+    width: 100%;
+    margin: 0;
+}
+header {
+    background: rgb(174,217,238);
+    background-image: radial-gradient(circle, #1e0c72 0%, #3d90de 100%);
+    height: 240px;
+    width: 100%;
+}
+header h1{
+    text-shadow: 4px 4px black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+header h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: white;
+    font-size: 38px;
+    padding-top: 16px;
+}
+header img {
+    width: 200px;
+    float: right;
+    margin-top: 14px;
+    margin-right: 20px;
+}   
+.content {
+    width: 75%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+ul {
+    list-style-type: none;
+}
+.competences h3, .langues h3, .hobits h3 {
+    margin-bottom: 1.2em;
+    text-decoration: underline;
+    text-align: start;
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 1em;
+    color: #1e0c72;
+}
+p {
+    text-align: center;
+    /* margin-right: 10em; */
+    margin-bottom: 1em;
+
+}
+strong {
+    display: flex;
+    color: #1b0386;
+    margin-left: 20em;
+    text-align: start;
+}
+
