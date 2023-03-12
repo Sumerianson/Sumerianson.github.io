@@ -1,110 +1,226 @@
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="style.css">
-    <title>Firas CV</title>
-</head>
-
-<body>
-
-    <header>
-        <img src="images/avatar.png" alt="avatar">
-        <h1 class="ms-5">Firas ALHAMDANY</h1>
-        <h2>Développeur Web et Web Mobile</h2>
-    </header>
-    <div class="container-fluid row g-0">
-        <div class="side col-6 col-md-3 bg-primary-subtle">
-            <div class="coordonnees m-5">
-                <ul>
-                    <li><i class="bi bi-at"> alhamdanyfiras78@gmail.com</i></li>
-                    <li><i class="bi bi-telephone-fill"> 06.46.33.11.20</i></li>
-                    <li><i class="bi bi-geo-alt-fill"> 9 rue des Pins</i></li>
-                    <li>91220 Brétigny sur orge</li>
-                    <li><i class="bi bi-car-front-fill"> Permis B</i></li>
-                    <li></li>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Firas - CV</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Alhamdany Firas</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/Firas-A.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Formation</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Expériences professionnelles</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Langues parlées</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Centres d'intrérêts</a></li>
                 </ul>
             </div>
-            <div class="competences text-start m-5">
-                <h3 class="text-primary">COMPÉTENCES</h3>
-                <ul>
-                    <li class="me-5">HTML CSS <span class="ms-5">&#9733 &#9733 &#9733 &#9733 &#9734</span></li>
-                    <li class="me-5">Javascript &nbsp;<span class="ms-5">&#9733 &#9733 &#9734 &#9734 &#9734</span></li>
-                    <li class="me-5">PHP &nbsp;&nbsp;&nbsp;&emsp;&emsp;<span class="ms-5">&#9733 &#9733 &#9733 &#9734 &#9734</span></li>
-                    <li class="me-5">Wordpress <span class="ms-5">&#9733 &#9733 &#9733 &#9734 &#9734</span></li>
-                    <li class="me-5">Symfony &emsp;<span class="ms-5">&#9733 &#9733 &#9733 &#9734 &#9734</span></li>
-                    <li class="me-5">React &nbsp;&emsp;&emsp;<span class="ms-5">&#9733 &#9733 &#9734 &#9734 &#9734</span></li>
-                </ul>
-            </div>
-            <div class="langues m-5">
-                <h3 class="text-primary">LANGUES PARLÉES</h3>
-                <ul>
-                    <li>Anglais &emsp;<span class="ms-5">&#9733 &#9733 &#9733 &#9734 &#9734</span></li>
-                    <li>Arabe &nbsp;&nbsp;&emsp;<span class="ms-5">&#9733 &#9733 &#9733 &#9733  &#9733</span></li>
-                    <li>Italian &nbsp;&nbsp;&emsp;<span class="ms-5">&#9733 &#9733 &#9734 &#9734  &#9734</span></li>
-                    <li>Turk &nbsp;&emsp;&emsp;<span class="ms-5">&#9733 &#9733 &#9734 &#9734  &#9734</span></li>
-                </ul>
-            </div>
-            <div class="hobits m-5">
-                <h3 class="text-primary">CENTRES D'INTÉRÊT</h3>
-                <p class="ms-3 text-start">Natation, Vélo, Arts martiaux,<br>
-                    Photographies, Voyage, Découvrir la
-                    nature.</p>
-            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Alhamdany
+                        <span class="text-info">Firas</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        9 Rue Des Pins, 91220-Brétigny Sur Orge
+                        <ul class="list-unstyled">
+                            <li><a href="mailto:name@email.com">alhamdanyfiras78@gmail.com</a></li>
+                            <li>Tel: 06 46 33 11 20</li>
+                            <li>Permis B</li>
+                        </ul>
+                    </div>
+                    <p class="lead mb-5">Développeur Web et Web Mobile, je cherche un contrat CDA en alternance.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/Sumerianson"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            <!-- Education-->
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Formation</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">ESRP Beauvoir</h3>
+                            <div class="subheading mb-3">Bac+2</div>
+                            <div>Développeur Web et Web Mobile.</div>
+                            <!-- <p>GPA: 3.23</p> -->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-info">Novembre 2021 - Février 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">ESRP Beauvoir</h3>
+                            <div class="subheading mb-3">Mise à niveau.</div>
+                            <!-- <p>GPA: 3.56</p> -->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-info">Mars 2021 - Août 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Udacity</h3>
+                            <div class="subheading mb-3">Certificat Front-End à distance.</div>
+                            <!-- <p>GPA: 3.56</p> -->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-info">2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Auchun-ID Logistics</h3>
+                            <div class="subheading mb-3">Cariste 1-3-4, Contrôleur, réception, SST, guide fil.</div>
+                            <!-- <p>GPA: 3.56</p> -->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-info">2009 - 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Institut Technique - Irak</h3>
+                            <div class="subheading mb-3">Bac+2 Électronique</div>
+                            <!-- <p>GPA: 3.56</p> -->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-info">2000</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+             <!-- Experience-->
+             <section class="resume-section" id="experience">
+                 <div class="resume-section-content">
+                     <h2 class="mb-5">Expériences Professionnelles</h2>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                         <div class="flex-grow-1">
+                             <h3 class="mb-0">Développeur Web</h3>
+                             <div class="subheading mb-3">France-Touris - Projet PASSE (Projet D'application stage en Situation Entreprise)</div>
+                             <p>Afin de développer un projet plateforme touristique Full Stack sur Symfony Framework.</p>
+                         </div>
+                         <div class="flex-shrink-0"><span class="text-info">OCTOBRE 2 0 2 2 – NOVEMBRE 2 0 2 2</span></div>
+                     </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                         <div class="flex-grow-1">
+                             <h3 class="mb-0">Développeur Web</h3>
+                             <div class="subheading mb-3">Babylon Bistrot – Projet fil rouge</div>
+                             <p>afin de développer un projet Bistrot restaurant Full Stack sur Symfony Framework.</p>
+                         </div>
+                         <div class="flex-shrink-0"><span class="text-info">JUIN 2022 - SEPTEMBRE 2022</span></div>
+                     </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Développer Web</h3>
+                            <div class="subheading mb-3">CTI Melun – projet fil rouge</div>
+                            <p>Développement la gestion du personnel pour CTI (Centre Traitement Informatique) de Melun sur WordPress.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-info">JUIN 2022 - SEPTEMBRE 2022</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                         <div class="flex-grow-1">
+                             <!-- <h3 class="mb-0">Développeur Web</h3> -->
+                             <div class="subheading mb-3">Gestion et utilisation de Bases de données (Irak).</div>
+                             <!-- <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p> -->
+                         </div>
+                         <div class="flex-shrink-0"><span class="text-info">2000-2003</span></div>
+                     </div>
+                 </div>
+             </section>
+            
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Compétences</h2>
+                    <div class="subheading mb-3">Langages et outils de programmation</div>
+                    <ul class="list-group dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i>&emsp;&nbsp;
+                            <span class="ms-5 fs-5 text">&#9733 &#9733 &#9733 &#9733 &#9734</span></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i>&emsp;&nbsp;
+                            <span class="ms-5 fs-5 text">&#9733 &#9733 &#9733 &#9733 &#9734</span></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i>&emsp;
+                            <span class="ms-5 fs-5 text">&#9733 &#9733 &#9734 &#9734 &#9734</span></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="ms-5 fs-5 text">&#9733 &#9733 &#9733 &#9734 &#9734</span></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i>&emsp;
+                            <span class="ms-5 fs-5 text">&#9733 &#9733 &#9733 &#9734 &#9734</span></li>
+                        <li class="list-inline-item"><i class="fab fa-symfony"></i>&emsp;
+                            <span class="ms-5 fs-5 text">&#9733 &#9733 &#9733 &#9734 &#9734</span></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i>&emsp;
+                            <span class="ms-5 fs-5 text">&#9733 &#9733 &#9734 &#9734 &#9734</span></li>
+                    </ul>
+                    <div class="subheading mt-5 mb-3">AUTRES EXPÉRIENCES</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <div><span class="text-info">2009-2019</span></div>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cariste réceptionneur chez ID Logistics, Brétigny Sur Orge : Contrôleur audit, gestion des stockages.
+                        </li>
+                        <li>
+                            <div><span class="text-info">2003-2005</span></div>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Travail en administration : Photoshop, Word, PowerPoint, Traduction Anglais – Arabe (Irak).
+                        </li>
+                    </ul>
+                </div>
+            </section>           
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Langues parlées</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            Anglais &emsp;<span class="ms-5">&#9733 &#9733 &#9733 &#9734 &#9734</span>
+                        </li>
+                        <li>
+                            Arabe &nbsp;&nbsp;&emsp;<span class="ms-5">&#9733 &#9733 &#9733 &#9733  &#9733</span>
+                        </li>
+                        <li>
+                            Italian &nbsp;&nbsp;&emsp;<span class="ms-5">&#9733 &#9733 &#9734 &#9734  &#9734</span>
+                        </li>
+                        <li>
+                            Turk &nbsp;&emsp;&emsp;<span class="ms-5">&#9733 &#9733 &#9734 &#9734  &#9734</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+             <!-- Interests-->
+             <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Centres d'intrérêts</h2>
+                    <p>Natation, Vélo, Arts martiaux, 
+                        Photographies, Voyage, Découvrir la 
+                        nature et très intéressé par la technologie</p>
+                    <!-- <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p> -->
+                </div>
+            </section>
         </div>
-        <div class="content col-sm-6 col-md-8 bg-light">
-            <div class="formation">
-                <h2 class="mt-5 bg-primary-subtle text-center text-primary-emphasis">FORMATION</h2>
-                <p><strong>2021 - 2023</strong> Bac+2 Développeur Web et Web Mobile</p>
-                <p><strong>Mars – Août 2021</strong> mise à niveau au (ESRP).</p>
-                <p><strong>Sep – Déc 2020</strong> Élaboration projet professionnel (LADAPT).</p>
-                <p><strong>2018</strong> Certification Front-End (UDACITY).</p>
-                <p><strong>2009 – 2019</strong> Cariste 1,3,5, Réception, Contrôle, SST, Guide Fil.</p>
-                <p><strong>2000</strong> Bac+2 Électronique(Irak).</p>
-            </div>
-            <div class="experience">
-                <h2 class="mt-5 bg-primary-subtle text-center text-primary-emphasis">EXPÉRIENCES PROFESSIONNELLES</h2>
-                <h3>OCTOBRE 2 0 2 2 – NOVEMBRE 2 0 2 2</h3>
-                <P>France Touris – Projet Passe (Projet D’application Stage en Situation Entreprise) afin de développer un projet Full Stack sur Symfony Framework.</P>
-
-                <h3>Juin 2022 – Septembre 2022</h3>
-                <P>Babylon Bistrot – Projet fil rouge, afin de développer un projet Full Stack sur Symfony Framework.</P>
-
-                <h3>Février 2022 – Avril 2022</h3>
-                <P>CTI Melun – Développer Web projet fil rouge pour la gestion du personnel pour CTI (Centre Traitement Informatique) de Melun sur WordPress.</P>
-
-                <h3>2000 - 2003</h3>
-                <p>Gestion et utilisation de Basse de données (Irak).</p>
-            </div>
-
-            <div class="experience">
-                <h2 class="mt-5 bg-primary-subtle text-center text-primary-emphasis">AUTRES EXPÉRIENCES</h2>
-              
-                <h3>2009 - 2019</h3>
-                <P>Cariste réceptionneur chez ID Logistics, Brétigny Sur Orge :
-                    Contrôleur audit, gestion des stockages.
-                    </P>
-
-                <h3>2003 - 2005</h3>
-                <P>Travail en administration:
-                    Photoshop, Word, PowerPoint, Traduction Anglais – Arabe (Irak).
-                    </P>
-            </div>
-        </div>
-    </div>
-
-</body>
-
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
